@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUEGO DEL DINOSAURIO</title>
+    <title>Dinosaurio</title>
     <style>
 
 * {
@@ -52,8 +52,8 @@ body{
     left: 42px;
     z-index: 2;
 
-    background: url(https://github.com/korderoman/dinosaurio/blob/master/images/dead.png?raw=true)repeat-x 0px 0px;
-    background-size: 86px 60px;
+    background: url(https://github.com/GemukiDev/dinosaurio_chrome/blob/master/img/dino.png?raw=true) repeat-x 0px 0px;
+    background-size: 336px 84px;
     background-position-x: 0px;
 
 }
@@ -93,7 +93,7 @@ body{
     width: 98px;
     height: 66px;
 
-    background: url(https://github.com/korderoman/dinosaurio/blob/master/images/cactus3.png?raw=true) no-repeat;
+    background: url(https://github.com/GemukiDev/dinosaurio_chrome/blob/master/img/cactus2.png?raw=true) no-repeat;
 }
 
 .nube{
@@ -161,7 +161,7 @@ body{
 
     </div>
 
-    <div class="game-over">PERDISTE</div>
+    <div class="game-over">GAME OVER</div>
     
 
 <script>
@@ -369,7 +369,7 @@ function GanarPuntos() {
         contenedor.classList.add("mediodia");
     }else if(score == 10) {
         gameVel = 2;
-         contenedor.classList.add("tarde");
+        contenedor.classList.add("tarde");
     } else if(score == 20) {
         gameVel = 3;
         contenedor.classList.add("noche");
@@ -410,4 +410,4 @@ function IsCollision(a, b, paddingTop, paddingRight, paddingBottom, paddingLeft)
 
 </script>
 </body>
-</html>
+</html
